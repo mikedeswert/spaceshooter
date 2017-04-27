@@ -6,12 +6,12 @@ var upgrades = (function(weapons, directions) {
     function preload(newGame) {
         game = newGame;
 
-        game.load.image('light-laser-upgrade', '../media/images/sprites/upgrades/light_laser_upgrade.png');
-        game.load.image('heavy-laser-upgrade', '../media/images/sprites/upgrades/heavy_laser_upgrade.png');
-        game.load.image('particle-beam-upgrade', '../media/images/sprites/upgrades/particle_beam_upgrade.png');
-        game.load.image('plasma-cannon-upgrade', '../media/images/sprites/upgrades/plasma_cannon_upgrade.png');
+        game.load.image('light-laser-upgrade', 'media/images/sprites/upgrades/light_laser_upgrade.png');
+        game.load.image('heavy-laser-upgrade', 'media/images/sprites/upgrades/heavy_laser_upgrade.png');
+        game.load.image('particle-beam-upgrade', 'media/images/sprites/upgrades/particle_beam_upgrade.png');
+        game.load.image('plasma-cannon-upgrade', 'media/images/sprites/upgrades/plasma_cannon_upgrade.png');
 
-        game.load.audio('weapon-upgrade', '../media/sounds/effects/weapon_upgrade.mp3');
+        game.load.audio('weapon-upgrade', 'media/sounds/effects/weapon_upgrade.mp3');
     }
 
     function create() {

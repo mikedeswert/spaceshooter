@@ -4,9 +4,9 @@ var hulls = (function () {
     function preload(newGame) {
         game = newGame;
 
-        game.load.image('spaceship', '../media/images/sprites/spaceship.gif');
-        game.load.spritesheet('cruiser', '../media/images/sprites/cruiser.png', 362, 400);
-        game.load.spritesheet('brown-spaceship', '../media/images/sprites/brown_spaceship.gif', 64, 64);
+        game.load.image('spaceship', 'media/images/sprites/spaceship.gif');
+        game.load.spritesheet('cruiser', 'media/images/sprites/cruiser.png', 362, 400);
+        game.load.spritesheet('brown-spaceship', 'media/images/sprites/brown_spaceship.gif', 64, 64);
     }
 
     var Hull = function () {

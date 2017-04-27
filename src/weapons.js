@@ -4,15 +4,15 @@ var weapons = (function(tiers, projectiles) {
 
     function preload(newGame) {
         game = newGame;
-        game.load.image('light-laser', '../media/images/sprites/light_laser.png');
-        game.load.image('heavy-laser', '../media/images/sprites/heavy_laser.png');
-        game.load.spritesheet('plasma-cannon', '../media/images/sprites/plasma_cannon_3.png', 64, 64);
-        game.load.spritesheet('particle-beam', '../media/images/sprites/particle_beam.png', 800, 32);
+        game.load.image('light-laser', 'media/images/sprites/light_laser.png');
+        game.load.image('heavy-laser', 'media/images/sprites/heavy_laser.png');
+        game.load.spritesheet('plasma-cannon', 'media/images/sprites/plasma_cannon_3.png', 64, 64);
+        game.load.spritesheet('particle-beam', 'media/images/sprites/particle_beam.png', 800, 32);
 
-        game.load.audio('light-laser', '../media/sounds/effects/light_laser.mp3');
-        game.load.audio('heavy-laser', '../media/sounds/effects/heavy_laser_2.mp3');
-        game.load.audio('particle-beam', '../media/sounds/effects/particle_beam.mp3');
-        game.load.audio('plasma-cannon', '../media/sounds/effects/plasma_cannon.mp3');
+        game.load.audio('light-laser', 'media/sounds/effects/light_laser.mp3');
+        game.load.audio('heavy-laser', 'media/sounds/effects/heavy_laser_2.mp3');
+        game.load.audio('particle-beam', 'media/sounds/effects/particle_beam.mp3');
+        game.load.audio('plasma-cannon', 'media/sounds/effects/plasma_cannon.mp3');
     }
 
     function create() {

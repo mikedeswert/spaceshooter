@@ -9,8 +9,8 @@
     var music;
 
     function preload() {
-        game.load.image('background', '../media/images/background/space.png');
-        //game.load.audio('soundtrack', '../media/sounds/tracks/BioBlitz - Lobsters & Such.mp3');
+        game.load.image('background', 'media/images/background/space.png');
+        //game.load.audio('soundtrack', 'media/sounds/tracks/BioBlitz - Lobsters & Such.mp3');
 
         projectiles.preload(game);
         weapons.preload(game);
@@ -136,12 +136,12 @@ var bossSpawned = false;
     }
 
     function spawnEnemy() {
-        if(bossSpawned == false) {
-            new ships.enemies.Genocide();
-            bossSpawned = true;
-        }
+        // if(bossSpawned == false) {
+        //     new ships.enemies.Genocide();
+        //     bossSpawned = true;
+        // }
 
-        //new ships.enemies.Pirate();
+        new ships.enemies.Pirate();
     }
 
     function scrollBackground() {
